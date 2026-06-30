@@ -22,7 +22,7 @@ description = "Brian Tipton - software engineer"
 <a href="https://vscodium.com" target="_blank" rel="noopener"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscodium/vscodium-original.svg" alt="VSCodium" title="VSCodium" /></a>
 </div>
 <p class="line"><span class="prompt">$</span> cat contact.txt</p>
-<p class="out"><a href="https://github.com/yourusername">github.com/BrianTipton1</a> · <a href="mailto:briantiptondev@gmail.com">briantiptondev@gmail.com</a></p>
+<p class="out"><a href="https://github.com/BrianTipton1">github.com/BrianTipton1</a> · <a href="mailto:briantiptondev@gmail.com">briantiptondev@gmail.com</a></p>
 <p class="line"><span class="prompt">$</span> <span class="cursor">&nbsp;</span></p>
 </div>
 </div>
