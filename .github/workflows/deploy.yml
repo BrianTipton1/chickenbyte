@@ -9,8 +9,6 @@ permissions:
   pages: write
   id-token: write
 
-
-
 concurrency:
   group: "pages"
   cancel-in-progress: true
@@ -21,6 +19,13 @@ jobs:
     steps:
       - name: checkout
         uses: actions/checkout@v6.0.1
+
+      - name: Debug - list checked out files
+        run: |
+          pwd
+          ls -la
+          echo "--- zola.toml contents ---"
+          cat zola.toml || echo "zola.toml NOT FOUND"
 
       - name: Build Zola + upload Pages artifact
         uses: getzola/github-pages@066755243e69f508fd1a74739fbf1a65f656c790
